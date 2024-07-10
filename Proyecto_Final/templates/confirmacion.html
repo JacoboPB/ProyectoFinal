@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de envío</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos adicionales si los deseas */
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Gracias por enviar tu solicitud</h2>
+        <p>A continuación, te mostramos los detalles de tu solicitud:</p>
+        <ul>
+            <li><strong>Procedencia:</strong> {{ procedencia }}</li>
+            <li><strong>Celular:</strong> {{ celular }}</li>
+            <li><strong>Correo electrónico:</strong> {{ email }}</li>
+            <li><strong>Rol del usuario:</strong> {{ rol }}</li>
+            <li><strong>Tipo de solicitud:</strong> {{ tipo_solicitud }}</li>
+            <li><strong>Descripción:</strong> {{ descripcion }}</li>
+            <li><strong>Número de radicado:</strong> {{ numero_radicado }}</li>
+            <li><strong>Fecha de radicación:</strong> {{ fecha_radicacion }}</li>
+            <li><strong>Estado de la solicitud:</strong> {{ estado_solicitud }}</li>
+        </ul>
+    </div>
+</body>
+</html>
