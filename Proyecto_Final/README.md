@@ -12,6 +12,7 @@ Estado de la Solicitud: Las solicitudes pueden tener estados como "Pendiente" o 
 Seguimiento y Respuesta: Se puede registrar quién fue el encargado de la respuesta y la fecha en que se realizó.
 
 Estructura del Repositorio
+
 base_datos.sql: Archivo para crear la base de datos y su tabla que almacena la informacion.
 
 app.py: Archivo principal que contiene la lógica de la aplicación Flask.
